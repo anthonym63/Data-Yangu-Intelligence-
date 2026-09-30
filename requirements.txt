@@ -1,0 +1,17 @@
+# AI Data Operations & Analyst Platform for SMEs
+# LLM ecosystem: Anthropic Claude ONLY. Do not add `openai` or any
+# OpenAI-compatible shim - see CLAUDE.md section 2.
+
+anthropic>=1.0.0        # Claude Messages API
+streamlit>=1.40         # UI shell + st.session_state + AppTest harness
+polars>=1.20            # local dataframe I/O and profiling
+duckdb>=1.1             # analytical SQL over the cleaned frame
+pyarrow>=17             # DuckDB<->Polars bridge; frames are registered as Arrow tables (see PHASE_1_BACKEND.md 7.1)
+plotly>=5.24            # Plotly charts rendered inside Streamlit
+loguru>=0.7             # structured logging for the audit trail
+pytest>=8.0             # test runner
+openpyxl>=3.1           # required by polars.read_excel for .xlsx ingestion
+pydantic>=2.9           # validation of Claude's structured planner output
+python-dotenv>=1.0      # loads .env at the first Claude call - Streamlit does not read .env itself
+fastmcp>=2.0            # MCP tool-server surface (Phase 2 onward; unused in Phase 1)
+xlsxwriter>=3.2         # test-only: writes the .xlsx fixture for the ingestion round-trip test

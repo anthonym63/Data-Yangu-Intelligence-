@@ -1,0 +1,25 @@
+order_id,order_date,customer_name,region,amount_kes,quantity,discount,email,notes
+1001,2024-01-15,Alice Wanjiku,Nairobi,4500.00,3,10,alice@example.com,
+1002,15/01/2024," bob otieno",nairobi,1200.50,1,15%,,first order
+1003,16-01-2024,"Carol Achieng ",Mombasa,980.00,2,n/a,carol@example.com,
+1004,17 Jan 2024,DAVID KAMAU,mombasa,15000.00,5,5,,
+1005,2024/01/18,Eve Njeri,Kisumu,300.00,1,0,eve@example.com,
+1006,19.01.2024,frank mwangi,KISUMU,2200.00,4,12,,
+1007,2024-01-20,Grace Atieno,Nairobi,890000.00,1,0,grace@example.com,bulk equipment order
+1008,21/01/2024,Henry Odhiambo,Nakuru,640.00,2,10,,
+1009,"Jan 22, 2024",Irene Chebet,nakuru,1750.00,3,8,irene@example.com,
+1010,2024-01-23,James Kariuki,Eldoret,2100.00,2,10,,
+1011,24/01/2024,Karen Wambui,eldoret,560.00,1,twenty,karen@example.com,
+1012,2024-01-25,Liam Ochieng,Nairobi,3300.00,5,10,,
+1013,26/01/2024,Mary Akinyi,Mombasa,1450.00,2,15%,mary@example.com,
+1014,2024-01-27,Noah Kipchoge,Kisumu,780.00,1,5,,
+1015,28/01/2024,alice wanjiku,Nairobi,2650.00,3,10,alice@example.com,repeat customer
+1016,2024-01-29,Peter Mutua,Nakuru,1900.00,2,0,,
+1017,30/01/2024,Quinn Wafula,Eldoret,420.00,1,5,quinn@example.com,
+1018,2024-01-31,Rose Muthoni,Mombasa,3100.00,4,10,,
+1002,15/01/2024," bob otieno",nairobi,1200.50,1,15%,,first order
+1002,15/01/2024," bob otieno",nairobi,1200.50,1,15%,,first order
+1007,2024-01-20,Grace Atieno,Nairobi,890000.00,1,0,grace@example.com,bulk equipment order
+1019,not a date,Sam Kimani,Nairobi,1500.00,2,10,,
+1020,,Tina Wairimu,Thika,,1,10,tina@example.com,
+1021,2024-02-01,"  Uma Njoki  ",thika,2000.00,2,10,,
